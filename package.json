@@ -1,0 +1,19 @@
+{
+  "name": "bonik",
+  "version": "1.0.0",
+  "description": "This is a academic project on implementing custom API",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "bonik",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
